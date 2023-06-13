@@ -17,10 +17,10 @@ int main(){
   printf("Total value: %d\n",n1+n2);
   
   if(n1+n2>7){
-    printf("You won!\n");
+    printf("%s won!\n",na);
   }
   else{
-    printf("You lose!\n");
+    printf("%s lost!\n",na);
   }
   return 0;
 }
